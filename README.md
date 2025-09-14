@@ -45,7 +45,7 @@ Search Wikipedia and get summarized answers directly in Telegram.
 ### 1. Clone this repo
 
 ```bash
-git clone https://github.com/yourusername/telegram_bot.git
+git clone https://github.com/amitkumar0128/telegram_bot.git
 cd telegram_bot
 ```
 
@@ -107,12 +107,12 @@ telegram_bot/
 ## Screenshots
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c1e030a8-b790-4b99-8505-4c66da6eda16" alt="Screenshot" width="500"/>
-</p>
+<img src="https://github.com/user-attachments/assets/c1e030a8-b790-4b99-8505-4c66da6eda16" alt="Screenshot" width="500"/>
 <img src="https://github.com/user-attachments/assets/6b3f52d3-829f-4516-8d95-f3fe90ec910a" alt="Screenshot" width="500"/>
 <img src="https://github.com/user-attachments/assets/63397207-a39a-4a2c-b0bd-86da8e4b6fd0" alt="Screenshot" width="500"/>
 <img src="https://github.com/user-attachments/assets/017e9065-6025-43ab-8767-574548421eaf" alt="Screenshot" width="500"/>
 <img src="https://github.com/user-attachments/assets/b6104614-9faf-4b48-be40-f36c0fe6e535" alt="Screenshot" width="500"/>
+</p>
 
 ---
 
