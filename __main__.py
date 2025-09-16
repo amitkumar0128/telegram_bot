@@ -4,15 +4,15 @@ import asyncio
 from pathlib import Path
 from telethon import TelegramClient
 import os, sys
-from amit.utils import load_plug
-from amit import bot, bot_token
+from telegram_bot.utils import load_plug
+from telegram_bot import bot, bot_token
 
 
 # Set up logging
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s', level=logging.WARNING)
 
 # Load all plugins
-plugin_path = "amit/plugins/*.py"
+plugin_path = "telegram_bot/plugins/*.py"
 files = glob.glob(plugin_path)
 for name in files:
     with open(name) as f:
