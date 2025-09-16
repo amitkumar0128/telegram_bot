@@ -1,4 +1,4 @@
-from ... import bot
+from telegram_bot import bot
 from telethon import events
 import asyncio
 import os
