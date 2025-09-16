@@ -52,7 +52,8 @@ cd telegram_bot
 ### 2. Create a virtual environment
 
 ```bash
-python -m venv venv
+sudo apt install python3-venv  # for ubuntu
+python3 -m venv venv
 source venv/bin/activate
 ```
 
@@ -64,13 +65,14 @@ pip install -r requirements.txt
 
 ### 4. Configure `.env` file
 
-Create a `.env` file in the project root:
+Configure `.env` file in the project root:
 
 ```
 API_ID=your_telegram_api_id
 API_HASH=your_telegram_api_hash
 BOT_TOKEN=your_bot_token
 OPENAI_API_KEY=your_openai_api_key
+BOT_USERNAME=your_bot_username
 ```
 
 > 📌 You can get your API ID and hash from https://my.telegram.org and your bot token from [@BotFather](https://t.me/BotFather).
@@ -80,7 +82,7 @@ OPENAI_API_KEY=your_openai_api_key
 ### 5. Run the bot
 
 ```bash
-python -m telegram_bot.main
+python3 -m telegram_bot.main
 ```
 
 ---
