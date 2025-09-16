@@ -82,7 +82,8 @@ BOT_USERNAME=your_bot_username
 ### 5. Run the bot
 
 ```bash
-python3 -m telegram_bot.main
+cd ..
+python3 -m telegram_bot
 ```
 
 ---
