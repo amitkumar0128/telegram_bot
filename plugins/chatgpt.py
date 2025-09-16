@@ -1,8 +1,8 @@
 from telethon import events
-from amit import bot
+from telegram_bot import bot
 import openai
 import os
-from amit import openai_key
+from telegram_bot import openai_key
 
 
 client = openai.OpenAI(api_key=openai_key)
